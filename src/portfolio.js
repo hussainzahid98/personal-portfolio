@@ -23,7 +23,7 @@ const greeting = {
   username: "Hussain Zahid",
   title: "Hi all, I am Hussain",
   subTitle: emoji(
-    "Forward looking Software Engineer 🚀 with 2+ years of experience of building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
+    "Forward looking Software Engineer 🚀 with 2+ years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -173,6 +173,7 @@ const workExperiences = {
         "Developed scalable APIs and optimized existing endpoints to reduce latency.",
         "Designed and developed the Payment Request feature allowing Property Managers to send payment requests through email.",
         "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer and thereby reducing the probability of a defect occurring in production.",
+        "Designed and developed the Maintenance Request feature allowing tenants to send maintenance requests with images and videos to property managers.",
         "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews, load/stress testing, unit/integration/e2e testing"
       ]
     },
