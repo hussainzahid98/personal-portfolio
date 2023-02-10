@@ -23,7 +23,7 @@ const greeting = {
   username: "Hussain Zahid",
   title: "Hi all, I am Hussain",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Forward looking Software Engineer 🚀 with 2+ years of experience of building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/hussainzahidgiki",
+  linkedin: "https://www.linkedin.com/in/hussain-zahid-954881195/",
+  gmail: "hussainzahidgiki@gmail.com",
+  medium: "https://medium.com/@hussainzahidgiki",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER INTERESTED IN CLOUD",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop responsive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Design and Develop scalable and well documented APIs"),
+    emoji("⚡ Develop secure APIs that incorporate OWASP Top 10"),
+    emoji("⚡ Write clean code adhering to SOLID principles"),
+    emoji("⚡ Write Unit and End to End tests.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,10 +70,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -87,10 +80,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -123,9 +112,9 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
-    {
+    /*     {
       schoolName: "Harvard University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
@@ -135,7 +124,7 @@ const educationInfo = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
+    }, */
     {
       schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
@@ -150,7 +139,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -175,29 +164,37 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Inosio",
+      companylogo: require("./assets/images/Inosio.png"),
+      date: "November 2021 – February 2023",
+      desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $2 million using latest technologies like Node, React, Redux and MySQL.",
+        "Developed scalable APIs and optimized existing endpoints to reduce latency.",
+        "Designed and developed the Payment Request feature allowing Property Managers to send payment requests through email.",
+        "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer and thereby reducing the probability of a defect occurring in production.",
+        "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews, load/stress testing, unit/integration/e2e testing"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
+      role: "Full Stack Developer",
+      company: "Upwork",
+      companylogo: require("./assets/images/UpworkLogo.png"),
+      date: "November 2020 – Present",
+      desc: "Working as a freelance software developer",
+      descBullets: [
+        "Successfully delivered MVP projects for small to medium sized companies.",
+        "Over 1500 hours Logged",
+        "Upwork Rising Talent"
+      ]
+    }
+    /*     {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    } */
   ]
 };
 
@@ -216,27 +213,63 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Inosio.png"),
+      projectName: "Inosio",
+      projectDesc:
+        "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://portal.inosio.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/DrLogo.png"),
+      projectName: "Dr Haynes Collective",
+      projectDesc:
+        "Dr. Haynes Collective | DHC, is a boutique executive coaching firm and marketplace leveraging technology to deliver digital wellness firm aimed at optimizing productivity while prioritizing healthy (financial, physical, spiritual, community, intimate) relationships and goals.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://drhaynescollective.com/"
         }
       ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Some big projects you have worked on
+
+const testimonials = {
+  title: "Testimonials",
+  subtitle: "Some Awesome people I've worked with",
+  projects: [
+    {
+      image: require("./assets/images/rohan.jpeg"),
+      projectName: "Rohan de Launey",
+      jobTitle: "Co-founder Inosio",
+      jobLocation: "📍 San Diego, CA",
+      projectDesc: `"As a Product Manager you want developers that are inquisitive about the user and why/how they use the app. Hussain regularly asked great questions when reviewing upcoming tasks and was able to point out UX issues before they worked their way in to the dev cycle. 
+
+      During his tenure he created brand new product features from scratch, refactored poorly performing code, and made improvements to our data and front-end architecture. All of his tasks required working across several services; data, API, and front-end - he can do it all. 
+      
+      Finally, Hussain was a great fit on the team. His English is native-speaker level, he's good with jokes and always contributed positively to the culture on the team."`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://portal.inosio.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/UnknownUser.webp"),
+      projectName: "Dr Sarah Haynes",
+      jobTitle: "Founder Dr Haynes Collective",
+      projectDesc: `"Our firm needed a system for managing applicants and automating the appointment process. Hussain had a great eye for detail and was able to deliver the requested project with thoroughness and full quality. I look forward to hiring him again for future work."`
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -300,7 +333,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -343,7 +376,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +389,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -371,10 +404,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -393,5 +426,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
+  testimonials
 };

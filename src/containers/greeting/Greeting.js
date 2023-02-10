@@ -10,7 +10,7 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Greeting() {
+export default function Greeting({prof}) {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
@@ -50,7 +50,7 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/* <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
@@ -59,6 +59,13 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
+          </div> */}
+          <div className="profile-frame">
+            <img
+              src={prof.avatarUrl}
+              alt={prof.name}
+              className="profile-image"
+            />
           </div>
         </div>
       </div>

@@ -1,0 +1,14 @@
+@import "../../_globalColor";
+.profile-image-testimonial {
+    border-radius: 50%;
+    border: 0.4rem solid $githubProfileCardBorder;
+    margin-left: auto;
+    width: 150px;
+    height: 150px;
+    box-shadow: $lightBoxShadow 0 30px 30px -30px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .profile-image-testimonial:hover {
+    box-shadow: none;
+  }

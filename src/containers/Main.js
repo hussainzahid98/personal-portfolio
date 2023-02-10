@@ -16,10 +16,11 @@ import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
-import {splashScreen} from "../portfolio";
+import {splashScreen, openSource} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import Testimonials from "./Testimonials/Testimonials";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -43,6 +44,35 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  const [prof, setrepo] = useState([]);
+  function setProfileFunction(array) {
+    setrepo(array);
+  }
+
+  useEffect(() => {
+    if (openSource.showGithubProfile === "true") {
+      const getProfileData = () => {
+        fetch("/profile.json")
+          .then(result => {
+            if (result.ok) {
+              return result.json();
+            }
+          })
+          .then(response => {
+            setProfileFunction(response.data.user);
+          })
+          .catch(function (error) {
+            console.error(
+              `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
+            );
+            setProfileFunction("Error");
+            openSource.showGithubProfile = "false";
+          });
+      };
+      getProfileData();
+    }
+  }, []);
+
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
@@ -51,13 +81,14 @@ const Main = () => {
         ) : (
           <>
             <Header />
-            <Greeting />
+            <Greeting prof={prof} key={prof.id} />
             <Skills />
             <StackProgress />
             <Education />
             <WorkExperience />
             <Projects />
             <StartupProject />
+            <Testimonials />
             <Achievement />
             <Blogs />
             <Talks />

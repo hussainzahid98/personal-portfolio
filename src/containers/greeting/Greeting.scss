@@ -16,6 +16,11 @@
 .greeting-main {
   display: flex;
 }
+.profile-frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .subTitle {
   color: $subTitle !important;
@@ -46,7 +51,7 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 

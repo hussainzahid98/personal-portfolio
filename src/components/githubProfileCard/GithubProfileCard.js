@@ -1,9 +1,11 @@
 import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo, isHireable} from "../../portfolio";
+import {contactInfo, isHireable, illustration} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
+import email from "../../assets/lottie/email";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function GithubProfileCard({prof}) {
   if (isHireable) {
@@ -49,11 +51,16 @@ export default function GithubProfileCard({prof}) {
             <SocialMedia />
           </div>
           <div className="image-content-profile">
-            <img
-              src={prof.avatarUrl}
-              alt={prof.name}
-              className="profile-image"
-            />
+            <div className="contact-image-div">
+              {illustration.animated ? (
+                <DisplayLottie animationData={email} />
+              ) : (
+                <img
+                  alt="Man working"
+                  src={require("../../assets/images/contactMailDark.svg")}
+                ></img>
+              )}
+            </div>
           </div>
         </div>
       </div>

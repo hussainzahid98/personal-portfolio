@@ -6,18 +6,31 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
+  const softwareSkills = [
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    }
+  ];
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
-        </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
-          </a>
-        </p>
+        <div className="software-skills-main-div">
+          <ul className="dev-icons">
+            {softwareSkills.map((skills, i) => {
+              return (
+                <li
+                  key={i}
+                  className="software-skill-inline"
+                  name={skills.skillName}
+                >
+                  <i className={skills.fontAwesomeClassname}></i>
+                  <p>Created with {skills.skillName}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </Fade>
   );

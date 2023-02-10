@@ -49,6 +49,11 @@ export default function StartupProject() {
                         src={project.image}
                         alt={project.projectName}
                         className="card-image"
+                        style={
+                          project.projectName === "Inosio"
+                            ? {height: "100px", width: "100px"}
+                            : {}
+                        }
                       ></img>
                     </div>
                   ) : null}
