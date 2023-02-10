@@ -3,7 +3,7 @@ const https = require("https");
 process = require("process");
 require("dotenv").config();
 
-//makes the api call only when it builds, BAD !!
+//makes the api call only when it builds, BAD !
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
