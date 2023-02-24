@@ -249,7 +249,7 @@ const testimonials = {
   subtitle: "Some Awesome people I've worked with",
   projects: [
     {
-      image: require("./assets/images/Rohan.jpeg"),
+      image: require("./assets/images/Rohan2.jpeg"),
       projectName: "Rohan de Launey",
       jobTitle: "Co-founder Inosio",
       jobLocation: "📍 San Diego, CA",
