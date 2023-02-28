@@ -26,7 +26,7 @@ const greeting = {
     "Forward looking Software Engineer 🚀 with 2+ years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yC2CMJE4Ke5BbUaRiUjWgE15f8Pg5ZSD/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
