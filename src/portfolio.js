@@ -166,15 +166,15 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Inosio",
       companylogo: require("./assets/images/Inosio.png"),
-      date: "November 2021 – February 2023",
+      date: "November 2021 – March 2023",
       desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
-        "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $2 million using latest technologies like Node, React, Redux and MySQL.",
-        "Developed scalable APIs and optimized existing endpoints to reduce latency.",
+        "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $1M+ using latest technologies like Node, React, Redux and MySQL.",
+        "Developed scalable and well documented APIs and optimized existing endpoints",
         "Designed and developed the Payment Request feature allowing Property Managers to send payment requests through email.",
-        "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer and thereby reducing the probability of a defect occurring in production.",
+        "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer.",
         "Designed and developed the Maintenance Request feature allowing tenants to send maintenance requests with images and videos to property managers.",
-        "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews, load/stress testing, unit/integration/e2e testing"
+        "Continuous Integration/Deployment, Pull Requests, Code Reviews, Unit Testing, End to End Testing"
       ]
     },
     {
@@ -182,7 +182,7 @@ const workExperiences = {
       company: "Upwork",
       companylogo: require("./assets/images/UpworkLogo.png"),
       date: "November 2020 – Present",
-      desc: "Working as a freelance software developer",
+      desc: "Working as a freelance full stack software developer",
       descBullets: [
         "Successfully delivered MVP projects for small to medium sized companies.",
         "Over 1500 hours Logged",
