@@ -174,7 +174,7 @@ const workExperiences = {
         "Designed and developed the Payment Request feature allowing Property Managers to send payment requests through email.",
         "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer.",
         "Designed and developed the Maintenance Request feature allowing tenants to send maintenance requests with images and videos to property managers.",
-        "Continuous Integration/Deployment, Pull Requests, Code Reviews, Unit Testing, End to End Testing"
+        "Pull requests, Code reviews, Unit testing and End to end testing"
       ]
     },
     {
