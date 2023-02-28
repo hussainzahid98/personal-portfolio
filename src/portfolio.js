@@ -251,7 +251,7 @@ const testimonials = {
     {
       image: require("./assets/images/rohan2.jpeg"),
       projectName: "Rohan de Launey",
-      jobTitle: "Co-founder Inosio",
+      jobTitle: "CEO Inosio",
       jobLocation: "📍 San Diego, CA",
       projectDesc: `"As a Product Manager you want developers that are inquisitive about the user and why/how they use the app. Hussain regularly asked great questions when reviewing upcoming tasks and was able to point out UX issues before they worked their way in to the dev cycle. 
 
@@ -267,11 +267,17 @@ const testimonials = {
       ]
     },
     {
+      image: require("./assets/images/Ramsey.jpeg"),
+      projectName: "Ramsey Rashid",
+      jobTitle: "CTO Inosio",
+      projectDesc: `"Hussain was great to work with. He's very inquisitive and made great suggestions on the tech and UX sides of the project. His english is great and he was very available for US-based meetings. He was not afraid to dive into and learn new technology as well. A great addition to any team!"`
+    },
+    {
       image: require("./assets/images/UnknownUser.webp"),
       projectName: "Dr Sarah Haynes",
       jobTitle: "Founder Dr Haynes Collective",
       projectDesc: `"Our firm needed a system for managing applicants and automating the appointment process. Hussain had a great eye for detail and was able to deliver the requested project with thoroughness and full quality. I look forward to hiring him again for future work."`
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -345,7 +351,7 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-/*     {
+    /*     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
