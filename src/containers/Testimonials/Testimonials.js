@@ -70,6 +70,13 @@ export default function Testimonials() {
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
+                      {project.jobLocation}
+                    </p>
+                    <p
+                      className={
+                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                      }
+                    >
                       {project.projectDesc}
                     </p>
                   </div>

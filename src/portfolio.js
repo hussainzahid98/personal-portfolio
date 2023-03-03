@@ -26,7 +26,7 @@ const greeting = {
     "Forward looking Software Engineer 🚀 with 2+ years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1yC2CMJE4Ke5BbUaRiUjWgE15f8Pg5ZSD/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1XP_xBq6S-9XMkqji2ieF2peF3Gtv08Eg/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hussainzahidgiki",
-  linkedin: "https://www.linkedin.com/in/hussain-zahid-954881195/",
+  linkedin: "https://www.linkedin.com/in/hussain-zahid",
   gmail: "hussainzahidgiki@gmail.com",
   medium: "https://medium.com/@hussainzahidgiki",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER INTERESTED IN CLOUD",
+  subTitle: "FULL STACK ENGINEER INTERESTED IN CLOUD",
   skills: [
     emoji(
       "⚡ Develop responsive Front end / User Interfaces for your web and mobile applications"
@@ -163,14 +163,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Full Stack Engineer",
       company: "Inosio",
       companylogo: require("./assets/images/Inosio.png"),
-      date: "November 2021 – March 2023",
+      date: "November 2021 – Present",
       desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
         "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $1M+ using latest technologies like Node, React, Redux and MySQL.",
         "Developed scalable and well documented APIs and optimized existing endpoints",
+        "Optimized the rent auto payments code and reduced autopay failure rate significantly.",
         "Designed and developed the Payment Request feature allowing Property Managers to send payment requests through email.",
         "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer.",
         "Designed and developed the Maintenance Request feature allowing tenants to send maintenance requests with images and videos to property managers.",
@@ -182,9 +183,9 @@ const workExperiences = {
       company: "Upwork",
       companylogo: require("./assets/images/UpworkLogo.png"),
       date: "November 2020 – Present",
-      desc: "Working as a freelance full stack software developer",
+      desc: "Working as a full stack software developer",
       descBullets: [
-        "Successfully delivered MVP projects for small to medium sized companies.",
+        "Successfully delivered MVP projects to small to medium sized companies.",
         "Over 1500 hours Logged",
         "Upwork Rising Talent"
       ]
@@ -246,7 +247,7 @@ const bigProjects = {
 
 const testimonials = {
   title: "Testimonials",
-  subtitle: "Some Awesome people I've worked with",
+  subtitle: "SOME AWESOME PEOPLE I'VE WORKED WITH",
   projects: [
     {
       image: require("./assets/images/rohan2.jpeg"),
@@ -270,14 +271,15 @@ const testimonials = {
       image: require("./assets/images/Ramsey.jpeg"),
       projectName: "Ramsey Rashid",
       jobTitle: "CTO Inosio",
-      projectDesc: `"Hussain was great to work with. He's very inquisitive and made great suggestions on the tech and UX sides of the project. His english is great and he was very available for US-based meetings. He was not afraid to dive into and learn new technology as well. A great addition to any team!"`
+      jobLocation: "📍 San Diego, CA",
+      projectDesc: `"Hussain is great to work with. He's very inquisitive and made great suggestions on the tech and UX sides of the project. His english is great and he is very available for US-based meetings. He is not afraid to dive into and learn new technology as well. A great addition to any team!"`
     },
-    {
+/*     {
       image: require("./assets/images/UnknownUser.webp"),
       projectName: "Dr Sarah Haynes",
       jobTitle: "Founder Dr Haynes Collective",
       projectDesc: `"Our firm needed a system for managing applicants and automating the appointment process. Hussain had a great eye for detail and was able to deliver the requested project with thoroughness and full quality. I look forward to hiring him again for future work."`
-    },
+    } */
   ],
   display: true // Set false to hide this section, defaults to true
 };
