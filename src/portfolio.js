@@ -23,10 +23,10 @@ const greeting = {
   username: "Hussain Zahid",
   title: "Hi all, I am Hussain",
   subTitle: emoji(
-    "Forward looking Software Engineer 🚀 with 2+ years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux."
+    "Forward looking Software Engineer 🚀 with 3+ years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Lvgi2vvWgMnhEulMWUJHp16ecnuksIXx/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18RXlKip5NqWWws860TAthS-XGUnjRU5e/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -166,7 +166,7 @@ const workExperiences = {
       role: "Full Stack Engineer",
       company: "Inosio",
       companylogo: require("./assets/images/Inosio.png"),
-      date: "November 2021 – Present",
+      date: "August 2021 – Present",
       desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
         "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $1M+ using latest technologies like Node, React, Redux and MySQL.",
@@ -180,9 +180,22 @@ const workExperiences = {
     },
     {
       role: "Full Stack Developer",
+      company: "Dr. Haynes Collective",
+      companylogo: require("./assets/images/haynes_logo.jpeg"),
+      date: "July 2020 – July 2021",
+      desc: "Dr. Haynes Collective is a boutique executing coaching and wellness telehealth and concierge platform that aims to help companies, groups, and individuals optimize productivity.",
+      descBullets: [
+        "Developed a web app similar to Calendly to allow clients to make appointments with the business coach.",
+        "Developed a dashboard for the admin to manage client appointments.",
+        "Tools: React, Redux, Nest, MySQL, and Google Calendar API.",
+        "Pull requests, Code reviews, and Unit testing"
+      ]
+    },
+    {
+      role: "Full Stack Developer",
       company: "Upwork",
       companylogo: require("./assets/images/UpworkLogo.png"),
-      date: "November 2020 – Present",
+      date: "March 2020 – Present",
       desc: "Working as a full stack software developer",
       descBullets: [
         "Successfully delivered MVP projects to small to medium sized companies.",
@@ -273,8 +286,8 @@ const testimonials = {
       jobTitle: "CTO Inosio",
       jobLocation: "📍 San Diego, CA",
       projectDesc: `"Hussain is great to work with. He's very inquisitive and made great suggestions on the tech and UX sides of the project. His english is great and he is very available for US-based meetings. He is not afraid to dive into and learn new technology as well. A great addition to any team!"`
-    },
-/*     {
+    }
+    /*     {
       image: require("./assets/images/UnknownUser.webp"),
       projectName: "Dr Sarah Haynes",
       jobTitle: "Founder Dr Haynes Collective",
