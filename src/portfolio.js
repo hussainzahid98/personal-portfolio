@@ -23,10 +23,10 @@ const greeting = {
   username: "Hussain Zahid",
   title: "Hi all, I am Hussain",
   subTitle: emoji(
-    "Forward looking Software Engineer 🚀 with 3+ years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
+    "Forward looking Software Engineer 🚀 with 3 years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18RXlKip5NqWWws860TAthS-XGUnjRU5e/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zHYMLciiSN_1t1R8JWc-9q1LwODDUSnk/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -166,7 +166,7 @@ const workExperiences = {
       role: "Full Stack Engineer",
       company: "Inosio",
       companylogo: require("./assets/images/Inosio.png"),
-      date: "August 2021 – Present",
+      date: "November 2021 – Present",
       desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
         "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $1M+ using latest technologies like Node, React, Redux and MySQL.",
@@ -182,7 +182,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Dr. Haynes Collective",
       companylogo: require("./assets/images/haynes_logo.jpeg"),
-      date: "July 2020 – July 2021",
+      date: "July 2021 – October 2021",
       desc: "Dr. Haynes Collective is a boutique executing coaching and wellness telehealth and concierge platform that aims to help companies, groups, and individuals optimize productivity.",
       descBullets: [
         "Developed a web app similar to Calendly to allow clients to make appointments with the business coach.",
@@ -195,7 +195,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Upwork",
       companylogo: require("./assets/images/UpworkLogo.png"),
-      date: "March 2020 – Present",
+      date: "September 2020 – Present",
       desc: "Working as a full stack software developer",
       descBullets: [
         "Successfully delivered MVP projects to small to medium sized companies.",
