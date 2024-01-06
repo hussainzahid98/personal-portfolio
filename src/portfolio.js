@@ -23,7 +23,7 @@ const greeting = {
   username: "Hussain Zahid",
   title: "Hi all, I am Hussain",
   subTitle: emoji(
-    "Forward looking Software Engineer 🚀 with 3 years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
+    "Forward looking Software Engineer 🚀 with 4 years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zHYMLciiSN_1t1R8JWc-9q1LwODDUSnk/view?usp=sharing", // Set to empty to hide the button
@@ -379,7 +379,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     } */
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -419,7 +419,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "saadpasta70@gmail.com",
 };
 
 // Twitter Section

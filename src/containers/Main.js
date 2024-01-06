@@ -21,6 +21,7 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Testimonials from "./Testimonials/Testimonials";
+import Linkedin from "./linkedin/linkedin";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -91,6 +92,7 @@ const Main = () => {
             <Testimonials />
             <Achievement />
             <Blogs />
+            <Linkedin/>
             <Talks />
             <Twitter />
             <Podcast />

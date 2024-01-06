@@ -1,0 +1,60 @@
+// linkedin.scss
+
+@import "../../_globalColor"; // Make sure to adjust the path accordingly
+
+.linkedin-container {
+  width: 100%;
+}
+
+.linkedin-header {
+  text-align: start;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.linkedin-header-text {
+  font-size: 40px;
+  font-weight: 400;
+  color: $textColorDark; // Use your color variables
+}
+
+.linkedin-main-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.linkedin-post-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkedin-iframe {
+  width: 440px;
+  height: 430px;
+  background: $textColorDark;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px $darkBoxShadow;
+  transition: all 0.3s ease;
+  margin: 0 40px 30px 0; 
+
+  &:hover {
+    box-shadow: 0 20px 40px $lightBoxShadow;
+    transform: scale(1.05);
+  }
+}
+
+// Media Queries
+@media (max-width: 1380px) {
+  .linkedin-header-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .linkedin-header-text {
+    font-size: 24px;
+    text-align: center;
+  }
+}
