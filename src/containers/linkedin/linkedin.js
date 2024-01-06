@@ -11,7 +11,7 @@ export default function LinkedIn() {
   // Replace these iframe URLs with your actual LinkedIn post URLs
   const linkedinPostURLs = [
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7149137403369160704",
-    // Add more LinkedIn post URLs as needed
+    // Add more LinkedIn post URLs for iframes as needed
   ];
 
   return (
