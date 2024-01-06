@@ -2,7 +2,6 @@ import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable, illustration} from "../../portfolio";
-import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
