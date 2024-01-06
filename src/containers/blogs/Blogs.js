@@ -10,6 +10,7 @@ export default function Blogs() {
   function setMediumBlogsFunction(array) {
     setMediumBlogs(array);
   }
+  //Add linkedin posts instead
   //Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
   function extractTextContent(html) {
     return typeof html === "string"
