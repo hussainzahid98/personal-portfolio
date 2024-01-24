@@ -23,10 +23,10 @@ const greeting = {
   username: "Hussain Zahid",
   title: "Hi all, I am Hussain",
   subTitle: emoji(
-    "Forward looking Software Engineer 🚀 with 4 years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
+    "Forward looking Software Engineer 🚀 with 3 years of experience in building enterprise applications using latest technologies like Typescript/ Node.js/ React.js/ Redux/ AWS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1zHYMLciiSN_1t1R8JWc-9q1LwODDUSnk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1OfUJf3cFiLRGbAdo2wlhsnSGqW1ATDsN/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -112,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     /*     {
       schoolName: "Harvard University",
@@ -126,12 +126,12 @@ const educationInfo = {
       ]
     }, */
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Cardiff University",
+      logo: require("./assets/images/Cardiff_University_Logo.png"),
+      subHeader: "Master of Science in Software Engineering",
+      duration: "January 2023 - January 2024",
+      desc: "Distinction. Took following courses:",
+      descBullets: ["Programming Principles and Practice","Data Structures and Algorithms", "Agile Software Development", "Manipulating Data", "Devops", "Delivering User Experience"]
     }
   ]
 };
@@ -166,11 +166,12 @@ const workExperiences = {
       role: "Full Stack Engineer",
       company: "Inosio",
       companylogo: require("./assets/images/Inosio.png"),
-      date: "November 2021 – Present",
+      date: "September 2021 – August 2023",
       desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
         "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $1M+ using latest technologies like Node, React, Redux and MySQL.",
         "Developed scalable and well documented APIs and optimized existing endpoints",
+        "Delivered solid and smooth, high-quality user experience for all my features.",
         "Optimized the rent auto payments code and reduced autopay failure rate significantly.",
         "Designed and developed the Payment Request feature allowing Property Managers to send payment requests through email.",
         "Completely automated the property managers' user-experience testing process by integrating automated e2e tests using puppeteer.",
@@ -182,7 +183,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Dr. Haynes Collective",
       companylogo: require("./assets/images/haynes_logo.jpeg"),
-      date: "July 2021 – October 2021",
+      date: "March 2021 – August 2021",
       desc: "Dr. Haynes Collective is a boutique executing coaching and wellness telehealth and concierge platform that aims to help companies, groups, and individuals optimize productivity.",
       descBullets: [
         "Developed a web app similar to Calendly to allow clients to make appointments with the business coach.",
@@ -195,8 +196,8 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Upwork",
       companylogo: require("./assets/images/UpworkLogo.png"),
-      date: "September 2020 – Present",
-      desc: "Working as a full stack software developer",
+      date: "September 2020 – August 2021",
+      desc: "Worked as a freelance full stack software developer",
       descBullets: [
         "Successfully delivered MVP projects to small to medium sized companies.",
         "Over 1500 hours Logged",
