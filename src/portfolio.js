@@ -166,7 +166,7 @@ const workExperiences = {
       role: "Full Stack Engineer",
       company: "Inosio",
       companylogo: require("./assets/images/Inosio.png"),
-      date: "September 2021 – August 2023",
+      date: "September 2021 – Present",
       desc: "Inosio is a multi feature software for Property Managers offering rent collection, payment requests, maintenance requests and tenant applications.",
       descBullets: [
         "Designed and implemented enterprise fintech applications for the property management industry in the US, driving a monthly revenue of $1M+ using latest technologies like Node, React, Redux and MySQL.",

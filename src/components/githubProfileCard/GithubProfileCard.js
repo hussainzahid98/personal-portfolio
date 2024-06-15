@@ -48,11 +48,11 @@ export default function GithubProfileCard({prof}) {
                 
               </span>
             </div>
-            <div className="opp-div">
+{/*             <div className="opp-div">
               <span className="desc-prof">
                 +447388571242
               </span>
-            </div>
+            </div> */}
             <div className="opp-div">
               <span className="desc-prof">
                 hussainzahidgiki@gmail.com
